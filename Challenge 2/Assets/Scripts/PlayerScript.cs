@@ -93,6 +93,7 @@ public class PlayerScript : MonoBehaviour
         if (scoreValue >= 8)
         {
              winText.text = "You win! Created by Mohammad Saadeh";
+            Time.timeScale = 0;
            
         }
         if (scoreValue == 4)
