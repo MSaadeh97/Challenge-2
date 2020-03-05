@@ -98,7 +98,7 @@ public class PlayerScript : MonoBehaviour
         if (scoreValue == 4)
         {
             transform.position = new Vector2(36f, 0.1f);
-            //lives = 3;
+            lives = 3;
         }
 
     }
